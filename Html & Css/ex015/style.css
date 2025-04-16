@@ -1,0 +1,16 @@
+            body {
+                background-color: red;
+                font-family: Arial, Sans-Serif, Italic;
+            }
+            h1 {
+                background-color: blue;
+                color: yellow;
+                border-radius: 5px;
+            }
+            h2 {
+                background-color: green;
+                color: white;
+            }
+            p {
+                text-align: center;
+            }

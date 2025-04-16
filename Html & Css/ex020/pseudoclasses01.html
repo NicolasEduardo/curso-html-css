@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style type="text/css" media="all">
+      div {
+        display: inline-block;
+        background-color: lightgray;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+      }
+      div:hover {
+        background-color: green;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="click">
+      1
+    </div>
+    <div class="click">
+      2
+    </div>
+    <div class="click">
+      3
+    </div>
+    
+      <script>
+        let div = document.querySelectorAll(".click")
+        
+        for (let e of div) {
+          e.addEventListener("click", cor)
+          e.addEventListener("dblclick", cor2)
+          function cor2() {
+            e.setAttribute("style", "background-color: blue;")
+          }
+        function cor() {
+          e.setAttribute("style", "background-color: red;")
+        }
+        }
+        
+      </script>
+  </body>
+</html>

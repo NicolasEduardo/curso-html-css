@@ -1,0 +1,12 @@
+body {
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, white, #979797);
+}
+
+h1, h2 {
+  font-family: "Brush Script MT", cursive;
+  font-size: 3em;
+}
+p {
+  font: normal bold 15px Serif ;
+}
