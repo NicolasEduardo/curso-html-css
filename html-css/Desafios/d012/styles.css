@@ -47,9 +47,7 @@ header a, footer a {
     text-decoration: none;
 }
 
-header a:hover, footer a:hover {
-    text-decoration: underline;
-}
+
 
 header > p {
     padding-bottom: 50px;
@@ -89,12 +87,6 @@ section.imagem > p {
     border-radius: 4px;
     transition-duration: 0.2s;
     text-shadow: 1px 1px 0px black;
-}
-
-section.imagem > p:hover {
-    font-size: 4vw;
-    padding: 10px 5px 10px 5px;
-    border-radius: 10px;
 }
 
 section#img01 {
