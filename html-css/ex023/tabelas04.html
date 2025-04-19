@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        caption {
+            font-variant: small-caps;
+            font-size: 4vw;
+            font-weight: 700;
+        }
+        body {
+            font-family: sans-serif;
+            font-size: 2vw;
+        }
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: inset 0px 0px 13px rgba(0, 0, 0, 0.514);
+        }
+        td, th {
+            text-align: center;
+            padding: 10px;
+            border: 2px solid black;
+        }
+        td:hover ~ td, td:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            Filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th>Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Ana Carla</td>
+                <td>Shrek 3</td>
+                <td>Toy Story</td>
+                <td>Star Wars</td>
+            </tr>
+            <tr>
+                <td>Emilly</td>
+                <td>Chucky</td>
+                <td>Anabelle</td>
+                <td>Pânico</td>
+            </tr>
+            <tr>
+                <td>Laura</td>
+                <td>Hanibal</td>
+                <td>Minecraft: O filme</td>
+                <td>Exorcista</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Nicolas</td>
+                <td>Interestelar</td>
+                <td>Zootopia</td>
+                <td>Clube da luta</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>Gato de botas</td>
+                <td>O grito</td>
+                <td>Clube da luta</td>
+            </tr>
+            <tr>
+                <td>Laura</td>
+                <td>Velozes e furiosos</td>
+                <td>Halbert</td>
+                <td>Baba Yaga</td>
+            </tr>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
